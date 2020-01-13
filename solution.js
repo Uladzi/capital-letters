@@ -1,4 +1,4 @@
-const upWordFirstLetterFunc = (str) => {
+const capitalLetters = (str) => {
     let arrayStr = str.split(' ');
     for (let i = 0; i < arrayStr.length; i += 1) {
         if (arrayStr[i] !== '') {
@@ -8,4 +8,4 @@ const upWordFirstLetterFunc = (str) => {
     return arrayStr.join(' ');
 };
 
-export default upWordFirstLetterFunc;
+export default capitalLetters;
